@@ -1,0 +1,110 @@
+.about-us {
+    width: 100%;
+    height: 15rem;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(pics/karl-solano-eQ-8iUrb07g-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+
+.about-us-heading {
+  margin-top: -8%;
+  color: #fccc00;
+}
+.about-us-pic {
+  width: 100%;
+  height: 100%;
+  padding: 0 5%;
+  object-fit: cover;
+
+}
+.tg-heading {
+  margin: 5% 0;
+}
+.highlight {
+  color:#fccc00;
+}
+.description-1 {
+  color: black;
+  line-height: 2;
+  font-size: 1rem;
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 0 5%;
+}
+.offers-heading {
+  color: black;
+  line-height: 2;
+  font-size: 1rem;
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 0 5%;
+  font-weight: bold;
+}
+.about-us-list {
+  color: black;
+  line-height: 2;
+  font-size: 1rem;
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 0 0 0 10%;
+}
+.description-2 {
+  color: black;
+  line-height: 2;
+  font-size: 1.2rem;
+  padding: 3% 5%;
+}
+.get-a-quote-1 {
+  background-color: #0c4298;
+  padding: 3% 0;
+  text-align: right;
+}
+.quote-header-1 {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.call-us-btn {
+  width: 15rem;
+  height: 3rem;
+  background-color: transparent;
+  color: white;
+  border-bottom: white;
+  border-style: solid;
+  border-width: 3px;
+  font-size: 1.5rem;
+  border-radius: 1.5rem;
+}
+.call-us-btn:hover {
+  color: black;
+  cursor: pointer;
+  background-color: #fccc00;
+  border-color: #fccc00;
+  transition: 0.5s;
+}
+.navbar-toggler {
+  color: white;
+  border-color: #fff;
+}
+@media(max-width: 770px) {
+  .about-us {
+    height: 27rem;
+  }
+  .get-a-quote-1 {
+    text-align: center;
+    font-size: 1 rem;
+    margin: auto; 
+  }
+  .description-2 {
+    font-size: 1rem;
+  }
+  .buttons-row {
+    margin: auto;
+    text-align: center;
+  }
+  .about-us-pic {
+    width: 100%;
+    height: 30rem;
+  }
+}
